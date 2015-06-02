@@ -1,4 +1,6 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=2226
+This is my customized version of the VimWiki plugin. Very simple modification.
+All I've done is change the file extensino from ".wiki" to ".gpg" for the 
+purpose of integration with gnupg.vim.
 
 A Personal Wiki For Vim Plugin
 ==============================================================================
