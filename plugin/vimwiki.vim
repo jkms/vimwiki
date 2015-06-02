@@ -348,7 +348,7 @@ let s:vimwiki_defaults.path = '~/vimwiki/'
 let s:vimwiki_defaults.path_html = ''   " '' is replaced by derived path.'_html/'
 let s:vimwiki_defaults.css_name = 'style.css'
 let s:vimwiki_defaults.index = 'index'
-let s:vimwiki_defaults.ext = '.wiki'
+let s:vimwiki_defaults.ext = '.gpg'
 let s:vimwiki_defaults.maxhi = 0
 let s:vimwiki_defaults.syntax = 'default'
 
@@ -443,7 +443,7 @@ let extensions = vimwiki#base#get_known_extensions()
 
 augroup filetypedetect
   " clear FlexWiki's stuff
-  au! * *.wiki
+  au! * *.gpg
 augroup end
 
 augroup vimwiki
